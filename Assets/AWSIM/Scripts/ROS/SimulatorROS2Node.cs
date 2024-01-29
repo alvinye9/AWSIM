@@ -26,6 +26,7 @@ namespace AWSIM
 #endif
         static void Initialize()
         {
+            Debug.Log("Initializing /AWSIM node");
             ros2UnityCore = new ROS2UnityCore();
 
             if (ros2UnityCore.Ok())

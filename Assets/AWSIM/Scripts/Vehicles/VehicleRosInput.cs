@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using ROS2;
 
+
 namespace AWSIM
 {
     /// <summary>
@@ -27,6 +28,7 @@ namespace AWSIM
         ISubscription<autoware_auto_control_msgs.msg.AckermannControlCommand> ackermanControlCommandSubscriber;
         ISubscription<autoware_auto_vehicle_msgs.msg.GearCommand> gearCommandSubscriber;
         ISubscription<tier4_vehicle_msgs.msg.VehicleEmergencyStamped> vehicleEmergencyStampedSubscriber;
+        
 
         // Latest Emergency value.
         // If emergency is true, emergencyDeceleration is applied to the vehicle's deceleration.
@@ -75,6 +77,9 @@ namespace AWSIM
 
         void Start()
         {
+
+            Debug.Log("Successfully Created Subscribers");
+
             var qos = qosSettings.GetQoSProfile();
 
             turnIndicatorsCommandSubscriber
