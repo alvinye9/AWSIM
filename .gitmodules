@@ -1,4 +1,4 @@
 [submodule "Assets/Autonoma"]
 	path = Assets/Autonoma
 	url = git@github.com:alvinye9/autonoma-awsim.git
-	branch = AWSIM_devel
+	branch = BGAR_devel_2
