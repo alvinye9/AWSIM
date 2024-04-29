@@ -1,13 +1,66 @@
-AWSIM Licenses
+# Purdue AI Racing (PAIR) Simulator License
 
-AWSIM License Applies to tier4/AWSIM repositories and all content contained in the Releases(https://github.com/tier4/AWSIM/releases).
+## Overview
 
-* AWSIM specific code is distributed under Apache2.0 License.  
-The following extensions are included (*.cs *.compute *.xml)
+Purdue AI Racing (PAIR) Simulator is a derivative of the 2023 Autonoma/TierIV Racing Simulator. PAIR created code and PAIR specific assets are strictly proprietary and may not be distributed whatsoever.
 
-* AWSIM specific assets are distributed under CC BY-NC License.  
-The following extensions are included (*.fbx *.pcd *.osm *.png *.anim *.unitypackage *.x86_64)
-                                 
+**Extensions included:**
+- `*.fbx`
+- `*.pcd`
+- `*.osm`
+- `*.png`
+- `*.anim`
+- `*.unitypackage`
+- `*.x86_64`
+
+## Important Notice
+
+**BY INSTALLING, COPYING, DOWNLOADING, OR OTHERWISE USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS END-USER LICENSE AGREEMENT (EULA). IF YOU DO NOT AGREE, DO NOT INSTALL, COPY, DOWNLOAD, OR USE THE SOFTWARE.**
+
+## Grant of License
+
+**Licensor:** Purdue AI Racing ("Licensor")  
+**Licensee:** [Your Name]
+
+The Licensor hereby grants the Licensee a non-exclusive, non-transferable, limited license to use the accompanying software product ("Software") solely for personal or internal business purposes, subject to the following restrictions:
+
+1. **Distribution Restrictions:**
+    - You may not distribute, sell, lease, rent, lend, or sublicense the Software to any third party.
+    - You may not modify, decompile, disassemble, reverse engineer, or create derivative works based on the Software.
+    - You may not make the Software available on a network where it could be used by multiple users at the same time.
+
+2. **Intellectual Property Rights:**
+    - The Software is protected by intellectual property laws and treaties.
+    - The Software is licensed, not sold. The Licensor or its suppliers own all rights, title, and interest in and to the Software, including any intellectual property rights therein.
+
+## Warranty Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE.
+
+## Limitation of Liability
+
+IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES WHATSOEVER ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. LICENSOR'S TOTAL LIABILITY TO YOU FOR ALL DAMAGES SHALL NOT EXCEED THE AMOUNT YOU PAID FOR THE SOFTWARE.
+
+## Termination
+
+This EULA is effective until terminated. Your rights under this EULA will terminate automatically without notice from the Licensor if you fail to comply with any terms of this EULA. Upon termination, you shall cease all use of the Software and destroy all copies of the Software.
+
+## General
+
+This EULA constitutes the entire agreement between you and Licensor relating to the Software and supersedes all prior or contemporaneous oral or written communications, proposals, and representations with respect to the Software or any other subject matter covered by this EULA.
+
+## Governing Law
+
+This EULA shall be governed by the laws of [Jurisdiction], without regard to its conflict of laws principles.
+
+## Acknowledgment
+
+BY INSTALLING, COPYING, DOWNLOADING, OR OTHERWISE USING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS EULA, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS.
+
+
+**********************************************************************************
+        The original AWSIM specific code is distributed under Apache2.0 License.
+        AWSIM specific assets are distributed under CC BY-NC License.                                                              
 **********************************************************************************
                                  
                                  Apache License
