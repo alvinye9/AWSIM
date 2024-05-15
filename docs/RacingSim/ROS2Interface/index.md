@@ -4,7 +4,7 @@ To see how to custom messages type for ROS2, please refer to [Add custom ROS2 me
 
 **The custom messages used for the racing simulator can be found [HERE](https://github.com/autonomalabs/sim-msgs).**
 
-Users can choose betweent the high-level ROS2 interface (`/vehicle_data`, `/powertrain_data`, `/race_control`, `/vehicle_inputs`, `/to_raptor`) OR the low-level CAN interface (`/from_can_bus`, `/to_can_bus`). The DBC file with the message definitions for the low-level CAN interface [can be found here](CAN1-INDY-V14.dbc).
+Users can choose betweent the high-level ROS2 interface (`/vehicle_data`, `/powertrain_data`, `/race_control`, `/vehicle_inputs`, `/to_raptor`) OR the low-level CAN interface (`/from_can_bus`, `/to_can_bus`). The DBC file with the message definitions for the low-level CAN interface [can be found here](CAN1-INDY-V14).
 
 ## Publisher list
 
