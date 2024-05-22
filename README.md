@@ -10,5 +10,5 @@ Updates will be coming soon for Dallara AV-24.
 
 Actively Developed by Purdue AI Racing (PAIR)
 All original AWSIM source code is licensed under the Apache 2.0 License. All assets are distributed under the CC BY-NC License.
-All original PAIR source code is strictly proprietary.
+All original PAIR source code is licensed under the Apache 2.0 License. All assets are distributed under the CC BY-NC License.
 
