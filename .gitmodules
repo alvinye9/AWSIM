@@ -1,3 +1,3 @@
 [submodule "Assets/Autonoma"]
 	path = Assets/Autonoma
-	url = git@github.com:alvinye9/autonoma-awsim.git
+	url = git@github.com:alvinye9/autonoma-pairsim.git
