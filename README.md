@@ -1,7 +1,7 @@
 # How to Use Racing Simulator
 
-A vehicle simulator for the Dallara AV-21, built off the original AWSIM for the 2023 IAC Sim Races. 
-Updates will be coming soon for Dallara AV-24.
+A vehicle simulator for the Dallara AV-24, built off the original AWSIM for the 2023 IAC Sim Races, for the AV-21 . 
+
 
 ## Original AWSIM Documentation
 [Access the original AWSIM documentation here!](https://autonomalabs.github.io/AWSIM/)

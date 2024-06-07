@@ -8,13 +8,13 @@ using ROS2;
 namespace AWSIM
 {
     /// <summary>
-    /// This class for using ROS2 with AWSIM.
+    /// This class for using ROS2 with PAIRSIM.
     /// </summary>
     public static class SimulatorROS2Node
     {
         static ROS2UnityCore ros2UnityCore;
         static ROS2Node node;
-        const string NODE_NAME = "AWSIM";
+        const string NODE_NAME = "PAIRSIM";
         static ROS2Clock ros2Clock;
 
         public static ITimeSource TimeSource { get; private set; } = new UnityTimeSource();
@@ -26,7 +26,7 @@ namespace AWSIM
 #endif
         static void Initialize()
         {
-            Debug.Log("Initializing /AWSIM node");
+            Debug.Log("Initializing /PAIRSIM node");
             ros2UnityCore = new ROS2UnityCore();
 
             if (ros2UnityCore.Ok())
