@@ -25,7 +25,7 @@ public class ROS2Clock
 {
     private ITimeSource _timeSource;
 
-    public ROS2Clock() : this(new ROS2TimeSource())
+    public ROS2Clock() : this(new ROS2TimeSource()) 
     {   // By default, use ROS2TimeSource
     }
 
@@ -58,6 +58,7 @@ public class ROS2Clock
         uint nanoseconds;
         _timeSource.GetTime(out seconds, out nanoseconds);
         message.UpdateHeaderTime(seconds, nanoseconds);
+        // Debug.Log($"Message {message} nanoseconds {nanoseconds}"); //works
     }
 }
 

@@ -16,8 +16,7 @@ namespace AWSIM
         static ROS2Node node;
         const string NODE_NAME = "PAIRSIM";
         static ROS2Clock ros2Clock;
-
-        public static ITimeSource TimeSource { get; private set; } = new UnityTimeSource();
+        public static ITimeSource TimeSource { get; private set; } = new ROS2TimeSource(); 
 
         // Initialize faster than Awake() or Start()
         // Use Scripting Define Symbols to turn on and off.

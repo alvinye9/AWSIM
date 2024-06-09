@@ -73,6 +73,7 @@ namespace RGLUnityPlugin
         private static Dictionary<int, int> sharedTexturesUsageCount = new Dictionary<int, int>(); // <RGLTexture Identifier, count>
 
         public static ITimeSource TimeSource { get; set; } = new UnityTimeSource();
+        // public static ITimeSource TimeSource { get; set; } = new UnixTimeSource();
 
         private int lastUpdateFrame = -1;
 
